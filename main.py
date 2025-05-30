@@ -4,13 +4,14 @@ from telebot import types
 from deepface import DeepFace
 import dbimg
 import sqlite3 as sq
+from var import *
 
 
 # остановились на username
 
 ### Ошибка в обновлении UPDATE!! исправлить на INSERT or UPDATE
 
-API_TOKEN = '7860495879:AAFQAIElHv7iPrH1y9oGSxcqYFDlav3aYxU'  # поменять
+
 bot = telebot.TeleBot(API_TOKEN)
 print("Successful!")
 
